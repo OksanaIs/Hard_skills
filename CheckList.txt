@@ -1,0 +1,16 @@
+Checklist
+
+Project Name:
+Reported By:
+iOS Version:
+Browser:
+Delivery Date:
+
+#ID
+Checking
+Result: - Pass
+        - Fail
+        - Blocked
+        - Blocker
+        - Not implemented
+Comments
