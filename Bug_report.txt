@@ -1,0 +1,15 @@
+Bug Report structure
+   Bug ID: Needed for bug tracking
+   Title: What? Where? When?
+   Severity: Blocker/Critical/Major/Minor/Trivial
+   Priority: High/Medium/Minor
+   Assigned to: Developer name
+   Reported by: QA Engineer name
+   Environment: Device/OS version/Application version/Network connectivity/Browser
+   Steps to Reproduction: Should contain the minimum steps that describe the entire path of reproducing the bug
+                          1. Step description
+                          2. Step description
+                          3. Step description 
+   Expected result: Expected result according to the technical task, design, test cases outcome
+   Actual result: This field describes the actual effect of the bug
+   Attachments: Screenshots/Video/Log-file
