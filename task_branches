@@ -1,0 +1,61 @@
+Git Branches
+
+1. On the local repository, make branches for:
+   Postman
+   Jmeter
+   CheckLists
+   Bag Reports
+   SQL
+   Charles
+   Mobile testing
+
+   git branch Postman
+   git branch Jmeter
+   git branch CheckLists
+   git branch Bug_Reports
+   git branch SQL
+   git branch Charles
+   git branch Mobile_testing
+
+2. Push all branches to an external repository:
+   git push origin --all
+
+3. In the Bug_Reports branch, make a text document with the structure of a bug report:
+   git checkout Bug_Report
+   touch Bug_report.txt
+   vim Bug_report_.txt
+    i
+    Esc
+    :wq
+
+4. Push the Bug_report.txt to an external repository:
+   git add BugReport_structure.txt
+   git commit -m "Message"
+   git push --set-upstream origin BugReports
+
+5. Commit the Bug Reports branch to Main
+   git checkout main
+   git merge Bug_Report
+
+6. Push main to an external repository:
+   git push origin main
+
+7. In the CheckLists branch, type the structure of the checklist:
+   git checkout CheckList
+   touch CheckList.txt
+   vim CheckList.txt
+    i
+    Esc
+    :wq
+
+8. Push the structure to an external repository:
+   git add CheckList.txt
+   git commit -m "Message"
+   git push --set-upstream origin CheckLists
+
+9. On the external repository, make a Pull Request of the CheckLists branch in the main
+   On the GitHub interface:
+   Compare & Pull request -> Create pull request -> Merge pull request -> Confirm Merge
+
+10. Synchronize External and Local Main branches:
+    git pull
